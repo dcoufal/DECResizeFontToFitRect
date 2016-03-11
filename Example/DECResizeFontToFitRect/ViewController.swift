@@ -14,6 +14,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var label3: UILabel!
     @IBOutlet weak var label4: UILabel!
     @IBOutlet weak var label5: UILabel!
+    @IBOutlet weak var label6: UILabel!
+    @IBOutlet weak var label7: UILabel!
+    @IBOutlet weak var label8: UILabel!
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
@@ -23,6 +26,9 @@ class ViewController: UIViewController {
         resizeFontForLabel(label3)
         resizeFontForLabel(label4)
         resizeFontForLabel(label5)
+        resizeFontForLabel(label6)
+        resizeFontForLabel(label7)
+        resizeFontForLabel(label8)
     }
     
     func resizeFontForLabel(label: UILabel) {

@@ -6,7 +6,7 @@
 
 import UIKit
 
-func resizeFontToRect(
+public func resizeFontToRect(
     text: String?,
     font: UIFont,
     rect: CGRect,

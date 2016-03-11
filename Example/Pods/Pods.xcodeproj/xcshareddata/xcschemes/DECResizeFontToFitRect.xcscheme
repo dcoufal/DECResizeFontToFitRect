@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'A7B0115F3A3E79934141C733'
+               BlueprintIdentifier = '8D5B8595AE8F4A8BB1E5E2A6'
                BlueprintName = 'DECResizeFontToFitRect'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'DECResizeFontToFitRect.framework'>

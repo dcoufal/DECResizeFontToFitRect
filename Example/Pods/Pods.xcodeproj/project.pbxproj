@@ -7,17 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D7105552B20F87B5422DD4107E1BCB9 /* ResizeFontToFitRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC8F84653DCCDB969FA54D090D98B02 /* ResizeFontToFitRect.swift */; };
-		28744E79ABB7BC132B2EFF9F3BB39FA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		181C4805038A541EFB81D7DA039F71AE /* DECResizeFontToFitRect-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D97EFBB16E15FEDEA55AFA25C9FA54 /* DECResizeFontToFitRect-dummy.m */; };
+		5C5D62A444A10F76225822D6D06C3F6C /* DECResizeFontToFitRect-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39E717B33C8EB791AD43343B68567F29 /* DECResizeFontToFitRect-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		62E255089ACDC3E939FE34951AF2978C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		7DF7E93FBF7CE328DFD59FC44955A908 /* ResizeFontToFitRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC8F84653DCCDB969FA54D090D98B02 /* ResizeFontToFitRect.swift */; };
 		99E415562D1097688477E09E557CC908 /* Pods-DECResizeFontToFitRect_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AFB0F1E1CE07366F282C902ADE88B2F9 /* Pods-DECResizeFontToFitRect_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C10B45BFA2764A5B6FC9A58669DE778 /* Pods-DECResizeFontToFitRect_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A386673CF278F33045705F52C489A292 /* Pods-DECResizeFontToFitRect_Example-dummy.m */; };
-		B664D082FC01CD8E6306D40B059F7698 /* DECResizeFontToFitRect-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D97EFBB16E15FEDEA55AFA25C9FA54 /* DECResizeFontToFitRect-dummy.m */; };
 		B9FE17787A172952FC708126D6D12FAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		CE9A513ECAE3292533EB944376010E43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		D1ED6AC07887D05C030819BFE3501BA7 /* Pods-DECResizeFontToFitRect_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB35AA3E2D61BA2C5D6097B7D40E2E59 /* Pods-DECResizeFontToFitRect_Tests-dummy.m */; };
 		D51C7EFEAC0CB08D571B9487E014BE2C /* Pods-DECResizeFontToFitRect_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2817B858072359612557C15062ED028 /* Pods-DECResizeFontToFitRect_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DA9296A22A36BF32003B3A100EF5CA99 /* DECResizeFontToFitRect-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39E717B33C8EB791AD43343B68567F29 /* DECResizeFontToFitRect-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EBF7F51C276A9D2F6D620A35242DB549 /* DECResizeFontToFitRect.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E87E94F28169E09032FCEE98E331490F /* DECResizeFontToFitRect.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,26 +24,20 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0D8E431B55DA45D74F2AF359894F8E44;
+			remoteGlobalIDString = 54F1EAA9B4C0490C0688836D5AEE2009;
 			remoteInfo = DECResizeFontToFitRect;
-		};
-		46DDBD3DF4AA14C242852D1BE4382331 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D6EF941998FA53A0C2C395AD15863BB8;
-			remoteInfo = "DECResizeFontToFitRect-DECResizeFontToFitRect";
 		};
 		B7FED797658D8113E1C6A33141344DB1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0D8E431B55DA45D74F2AF359894F8E44;
+			remoteGlobalIDString = 54F1EAA9B4C0490C0688836D5AEE2009;
 			remoteInfo = DECResizeFontToFitRect;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D17914C12C8EDA2A9465FEF5A4E3525 /* Pods_DECResizeFontToFitRect_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DECResizeFontToFitRect_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		39E717B33C8EB791AD43343B68567F29 /* DECResizeFontToFitRect-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DECResizeFontToFitRect-umbrella.h"; sourceTree = "<group>"; };
 		3BDCA4305859FF2402E5800F65A41DE1 /* Pods-DECResizeFontToFitRect_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DECResizeFontToFitRect_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -55,24 +48,22 @@
 		7DC8F84653DCCDB969FA54D090D98B02 /* ResizeFontToFitRect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ResizeFontToFitRect.swift; sourceTree = "<group>"; };
 		7FAAF2511E175DC92D03C358880EC8FA /* Pods-DECResizeFontToFitRect_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DECResizeFontToFitRect_Example-resources.sh"; sourceTree = "<group>"; };
 		8A5DBA09640B62BDE6C209CA598A165E /* Pods-DECResizeFontToFitRect_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DECResizeFontToFitRect_Tests.modulemap"; sourceTree = "<group>"; };
-		8B4DD80CBC2CF27FDA0F7E9C8458953D /* Pods_DECResizeFontToFitRect_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DECResizeFontToFitRect_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E0F4868A9E91AA3DD1CA625A337021B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		935291DD2B173D09B7D0CA5261D3DA7F /* Pods-DECResizeFontToFitRect_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DECResizeFontToFitRect_Example.release.xcconfig"; sourceTree = "<group>"; };
 		94CDB8B7469B3CA32BDB1D78248F84DD /* Pods-DECResizeFontToFitRect_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DECResizeFontToFitRect_Example.modulemap"; sourceTree = "<group>"; };
 		9D53F8E45B84EC10F9C7A92355EB7FF2 /* Pods-DECResizeFontToFitRect_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DECResizeFontToFitRect_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		A1C2F5E193ABCAA13E2CA541E0994F7C /* DECResizeFontToFitRect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DECResizeFontToFitRect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2817B858072359612557C15062ED028 /* Pods-DECResizeFontToFitRect_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DECResizeFontToFitRect_Example-umbrella.h"; sourceTree = "<group>"; };
 		A386673CF278F33045705F52C489A292 /* Pods-DECResizeFontToFitRect_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DECResizeFontToFitRect_Example-dummy.m"; sourceTree = "<group>"; };
 		AFB0F1E1CE07366F282C902ADE88B2F9 /* Pods-DECResizeFontToFitRect_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DECResizeFontToFitRect_Tests-umbrella.h"; sourceTree = "<group>"; };
-		B35A3C01AA86667CACB33CD2EDE27BCE /* Pods_DECResizeFontToFitRect_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DECResizeFontToFitRect_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C2BFBC6DB91F0D5CD438654C6F142A6D /* DECResizeFontToFitRect.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DECResizeFontToFitRect.modulemap; sourceTree = "<group>"; };
 		C7BF1DF2EB174DA96429B58C6434959E /* DECResizeFontToFitRect.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DECResizeFontToFitRect.xcconfig; sourceTree = "<group>"; };
 		CA15BFA314472CE595E6E802DD52663C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D51750B5EAB91F4F61F94352EBFCF563 /* DECResizeFontToFitRect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DECResizeFontToFitRect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E87E94F28169E09032FCEE98E331490F /* DECResizeFontToFitRect.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DECResizeFontToFitRect.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED8EDEF4B3878273ED9CAEEDEE6251AB /* Pods-DECResizeFontToFitRect_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DECResizeFontToFitRect_Example-frameworks.sh"; sourceTree = "<group>"; };
 		EE1094B510305EC94B50AF783B80A511 /* Pods-DECResizeFontToFitRect_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DECResizeFontToFitRect_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F189A3C3702BF82EFD3D323E38C9724A /* Pods-DECResizeFontToFitRect_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DECResizeFontToFitRect_Tests-resources.sh"; sourceTree = "<group>"; };
+		F1B76EF57609D3D1662E4CE275D19834 /* Pods_DECResizeFontToFitRect_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DECResizeFontToFitRect_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F260BB12F1787F79BF34B04E834C93D2 /* Pods-DECResizeFontToFitRect_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DECResizeFontToFitRect_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F7F87D91D7C2C6EF29D3B353A08C7200 /* Pods-DECResizeFontToFitRect_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DECResizeFontToFitRect_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F8D9BDF48D2299D7BDB3D1BD8F047D13 /* DECResizeFontToFitRect-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DECResizeFontToFitRect-prefix.pch"; sourceTree = "<group>"; };
@@ -97,18 +88,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BB8BEF0587362FB8579D3BCA51D73859 /* Frameworks */ = {
+		94504C08E0135D0B888DCF36514322B7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28744E79ABB7BC132B2EFF9F3BB39FA4 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E0D2320D72B3D1EF91EC5C8B315EC64E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				CE9A513ECAE3292533EB944376010E43 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,23 +113,22 @@
 			path = "Example/Pods/Target Support Files/DECResizeFontToFitRect";
 			sourceTree = "<group>";
 		};
-		4A7393ECD4767DC97B551466CEAD27AF /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E87E94F28169E09032FCEE98E331490F /* DECResizeFontToFitRect.bundle */,
-				D51750B5EAB91F4F61F94352EBFCF563 /* DECResizeFontToFitRect.framework */,
-				8B4DD80CBC2CF27FDA0F7E9C8458953D /* Pods_DECResizeFontToFitRect_Example.framework */,
-				B35A3C01AA86667CACB33CD2EDE27BCE /* Pods_DECResizeFontToFitRect_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		4CE45C2FE9A6940D85AB24E5D524140A /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
 				F631B212F82082271E5B1D7D94D794D6 /* DECResizeFontToFitRect */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		59DE5ED9828A6DD80BB98D5FBB32759C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1C2F5E193ABCAA13E2CA541E0994F7C /* DECResizeFontToFitRect.framework */,
+				2D17914C12C8EDA2A9465FEF5A4E3525 /* Pods_DECResizeFontToFitRect_Example.framework */,
+				F1B76EF57609D3D1662E4CE275D19834 /* Pods_DECResizeFontToFitRect_Tests.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		666E3564D81CF8D8C56C33F10E719D68 /* Pods-DECResizeFontToFitRect_Tests */ = {
@@ -190,7 +173,7 @@
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				4CE45C2FE9A6940D85AB24E5D524140A /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				4A7393ECD4767DC97B551466CEAD27AF /* Products */,
+				59DE5ED9828A6DD80BB98D5FBB32759C /* Products */,
 				B040029CBA87FC359D1844A9E0DDDBC9 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -257,14 +240,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4008A52BD1892B2B93F994E20210E343 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DA9296A22A36BF32003B3A100EF5CA99 /* DECResizeFontToFitRect-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9B5ECD9EC7B7BB330B681834064004DF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -273,28 +248,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D7562277FB432864F105D2FC3C7635AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C5D62A444A10F76225822D6D06C3F6C /* DECResizeFontToFitRect-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0D8E431B55DA45D74F2AF359894F8E44 /* DECResizeFontToFitRect */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0B148133C20AD7A43518F90813A3A70C /* Build configuration list for PBXNativeTarget "DECResizeFontToFitRect" */;
-			buildPhases = (
-				895DF0C92D4F55D24736C9EAD73EA447 /* Sources */,
-				BB8BEF0587362FB8579D3BCA51D73859 /* Frameworks */,
-				4A468CA3B9FE49783A847FE05F30C363 /* Resources */,
-				4008A52BD1892B2B93F994E20210E343 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6F002371439A28433CBD100D1A7D46E6 /* PBXTargetDependency */,
-			);
-			name = DECResizeFontToFitRect;
-			productName = DECResizeFontToFitRect;
-			productReference = D51750B5EAB91F4F61F94352EBFCF563 /* DECResizeFontToFitRect.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		4540A96FC40150F50ECF67D6763CE206 /* Pods-DECResizeFontToFitRect_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B761040714BF34B7C8F3C9B51FF142C /* Build configuration list for PBXNativeTarget "Pods-DECResizeFontToFitRect_Tests" */;
@@ -310,7 +274,24 @@
 			);
 			name = "Pods-DECResizeFontToFitRect_Tests";
 			productName = "Pods-DECResizeFontToFitRect_Tests";
-			productReference = B35A3C01AA86667CACB33CD2EDE27BCE /* Pods_DECResizeFontToFitRect_Tests.framework */;
+			productReference = F1B76EF57609D3D1662E4CE275D19834 /* Pods_DECResizeFontToFitRect_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		54F1EAA9B4C0490C0688836D5AEE2009 /* DECResizeFontToFitRect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A35FBF2F11774248CE8385BF3C4C6EA /* Build configuration list for PBXNativeTarget "DECResizeFontToFitRect" */;
+			buildPhases = (
+				55DB04C4342471F0D0DA8084787C4EE7 /* Sources */,
+				94504C08E0135D0B888DCF36514322B7 /* Frameworks */,
+				D7562277FB432864F105D2FC3C7635AA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DECResizeFontToFitRect;
+			productName = DECResizeFontToFitRect;
+			productReference = A1C2F5E193ABCAA13E2CA541E0994F7C /* DECResizeFontToFitRect.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		BB5EF3B15BE94AB0B37476470CE72410 /* Pods-DECResizeFontToFitRect_Example */ = {
@@ -328,25 +309,8 @@
 			);
 			name = "Pods-DECResizeFontToFitRect_Example";
 			productName = "Pods-DECResizeFontToFitRect_Example";
-			productReference = 8B4DD80CBC2CF27FDA0F7E9C8458953D /* Pods_DECResizeFontToFitRect_Example.framework */;
+			productReference = 2D17914C12C8EDA2A9465FEF5A4E3525 /* Pods_DECResizeFontToFitRect_Example.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		D6EF941998FA53A0C2C395AD15863BB8 /* DECResizeFontToFitRect-DECResizeFontToFitRect */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EA92944E98F780676427EF03D51934D0 /* Build configuration list for PBXNativeTarget "DECResizeFontToFitRect-DECResizeFontToFitRect" */;
-			buildPhases = (
-				51D197DDB73D7E4B1DCEC61898DDB775 /* Sources */,
-				E0D2320D72B3D1EF91EC5C8B315EC64E /* Frameworks */,
-				6487B0B8437F816EFF7E893CEB20CE86 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "DECResizeFontToFitRect-DECResizeFontToFitRect";
-			productName = "DECResizeFontToFitRect-DECResizeFontToFitRect";
-			productReference = E87E94F28169E09032FCEE98E331490F /* DECResizeFontToFitRect.bundle */;
-			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -365,41 +329,24 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 4A7393ECD4767DC97B551466CEAD27AF /* Products */;
+			productRefGroup = 59DE5ED9828A6DD80BB98D5FBB32759C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0D8E431B55DA45D74F2AF359894F8E44 /* DECResizeFontToFitRect */,
-				D6EF941998FA53A0C2C395AD15863BB8 /* DECResizeFontToFitRect-DECResizeFontToFitRect */,
+				54F1EAA9B4C0490C0688836D5AEE2009 /* DECResizeFontToFitRect */,
 				BB5EF3B15BE94AB0B37476470CE72410 /* Pods-DECResizeFontToFitRect_Example */,
 				4540A96FC40150F50ECF67D6763CE206 /* Pods-DECResizeFontToFitRect_Tests */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		4A468CA3B9FE49783A847FE05F30C363 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EBF7F51C276A9D2F6D620A35242DB549 /* DECResizeFontToFitRect.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6487B0B8437F816EFF7E893CEB20CE86 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		51D197DDB73D7E4B1DCEC61898DDB775 /* Sources */ = {
+		55DB04C4342471F0D0DA8084787C4EE7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				181C4805038A541EFB81D7DA039F71AE /* DECResizeFontToFitRect-dummy.m in Sources */,
+				7DF7E93FBF7CE328DFD59FC44955A908 /* ResizeFontToFitRect.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,15 +355,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C10B45BFA2764A5B6FC9A58669DE778 /* Pods-DECResizeFontToFitRect_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		895DF0C92D4F55D24736C9EAD73EA447 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B664D082FC01CD8E6306D40B059F7698 /* DECResizeFontToFitRect-dummy.m in Sources */,
-				1D7105552B20F87B5422DD4107E1BCB9 /* ResizeFontToFitRect.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,52 +372,18 @@
 		0647753234B238CE33C6285A31D55817 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DECResizeFontToFitRect;
-			target = 0D8E431B55DA45D74F2AF359894F8E44 /* DECResizeFontToFitRect */;
+			target = 54F1EAA9B4C0490C0688836D5AEE2009 /* DECResizeFontToFitRect */;
 			targetProxy = 117B1B61B08350410A1A3611053FFFB1 /* PBXContainerItemProxy */;
 		};
 		6D9276B8161A7A5344BCF839E3232CA5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DECResizeFontToFitRect;
-			target = 0D8E431B55DA45D74F2AF359894F8E44 /* DECResizeFontToFitRect */;
+			target = 54F1EAA9B4C0490C0688836D5AEE2009 /* DECResizeFontToFitRect */;
 			targetProxy = B7FED797658D8113E1C6A33141344DB1 /* PBXContainerItemProxy */;
-		};
-		6F002371439A28433CBD100D1A7D46E6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "DECResizeFontToFitRect-DECResizeFontToFitRect";
-			target = D6EF941998FA53A0C2C395AD15863BB8 /* DECResizeFontToFitRect-DECResizeFontToFitRect */;
-			targetProxy = 46DDBD3DF4AA14C242852D1BE4382331 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		066A4A3614A83B39887BA56ED0E2CEB7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7BF1DF2EB174DA96429B58C6434959E /* DECResizeFontToFitRect.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/DECResizeFontToFitRect/DECResizeFontToFitRect-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DECResizeFontToFitRect/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DECResizeFontToFitRect/DECResizeFontToFitRect.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = DECResizeFontToFitRect;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -584,29 +488,60 @@
 			};
 			name = Debug;
 		};
-		88E0308500836E8D8925513F2DE2C30B /* Release */ = {
+		986A6FE789454F40CD6527430EE76DD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C7BF1DF2EB174DA96429B58C6434959E /* DECResizeFontToFitRect.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DECResizeFontToFitRect/DECResizeFontToFitRect-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DECResizeFontToFitRect/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DECResizeFontToFitRect/DECResizeFontToFitRect.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = DECResizeFontToFitRect;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		A307DAE733A7D8D00F2F0DE97F69D519 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7BF1DF2EB174DA96429B58C6434959E /* DECResizeFontToFitRect.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = DECResizeFontToFitRect;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		9E1DC399B3DA14540FC27AD993C3E598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7BF1DF2EB174DA96429B58C6434959E /* DECResizeFontToFitRect.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DECResizeFontToFitRect/DECResizeFontToFitRect-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DECResizeFontToFitRect/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DECResizeFontToFitRect/DECResizeFontToFitRect.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DECResizeFontToFitRect;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		B54656BE26555619919A2FC917241244 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -699,45 +634,9 @@
 			};
 			name = Release;
 		};
-		EA951E5FBCBF34F7499CA98E19702AF3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7BF1DF2EB174DA96429B58C6434959E /* DECResizeFontToFitRect.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/DECResizeFontToFitRect/DECResizeFontToFitRect-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DECResizeFontToFitRect/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DECResizeFontToFitRect/DECResizeFontToFitRect.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = DECResizeFontToFitRect;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0B148133C20AD7A43518F90813A3A70C /* Build configuration list for PBXNativeTarget "DECResizeFontToFitRect" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				066A4A3614A83B39887BA56ED0E2CEB7 /* Debug */,
-				EA951E5FBCBF34F7499CA98E19702AF3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		23415B8A6004CCC6F67FA6BB01280A28 /* Build configuration list for PBXNativeTarget "Pods-DECResizeFontToFitRect_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -756,20 +655,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		7A35FBF2F11774248CE8385BF3C4C6EA /* Build configuration list for PBXNativeTarget "DECResizeFontToFitRect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				986A6FE789454F40CD6527430EE76DD2 /* Debug */,
+				9E1DC399B3DA14540FC27AD993C3E598 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8B761040714BF34B7C8F3C9B51FF142C /* Build configuration list for PBXNativeTarget "Pods-DECResizeFontToFitRect_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CC403B29B9E151C7131C66BDFD1DB7E3 /* Debug */,
 				B54656BE26555619919A2FC917241244 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EA92944E98F780676427EF03D51934D0 /* Build configuration list for PBXNativeTarget "DECResizeFontToFitRect-DECResizeFontToFitRect" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A307DAE733A7D8D00F2F0DE97F69D519 /* Debug */,
-				88E0308500836E8D8925513F2DE2C30B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
