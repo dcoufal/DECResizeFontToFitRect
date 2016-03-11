@@ -12,9 +12,9 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		AF2E4419FA29762965D0095A /* Pods_DECResizeFontToFitRect_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2022736972BE2F4155F7BA36 /* Pods_DECResizeFontToFitRect_Example.framework */; };
 		B08D0A11970576242CDB5A1D /* Pods_DECResizeFontToFitRect_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F08C18EC8628EA4D41005762 /* Pods_DECResizeFontToFitRect_Tests.framework */; };
+		E31885711C92A36100489010 /* DECResizeFontToFitRectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E318856F1C92A35E00489010 /* DECResizeFontToFitRectTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,11 +41,11 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* DECResizeFontToFitRect_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DECResizeFontToFitRect_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7C017DCDFC03FAA0548E9A2B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		8DAADD7AE195C51D2F90D921 /* Pods-DECResizeFontToFitRect_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DECResizeFontToFitRect_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DECResizeFontToFitRect_Tests/Pods-DECResizeFontToFitRect_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		96CDBB2B3A0EEBCFFDF52EAF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C036A8BDB8533A3863AC882D /* Pods-DECResizeFontToFitRect_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DECResizeFontToFitRect_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DECResizeFontToFitRect_Example/Pods-DECResizeFontToFitRect_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E318856F1C92A35E00489010 /* DECResizeFontToFitRectTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DECResizeFontToFitRectTests.swift; sourceTree = "<group>"; };
 		F08C18EC8628EA4D41005762 /* Pods_DECResizeFontToFitRect_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DECResizeFontToFitRect_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -115,7 +115,7 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
+				E318856F1C92A35E00489010 /* DECResizeFontToFitRectTests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -368,7 +368,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				E31885711C92A36100489010 /* DECResizeFontToFitRectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

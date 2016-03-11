@@ -7,6 +7,4 @@ end
 
 target 'DECResizeFontToFitRect_Tests', :exclusive => true do
   pod 'DECResizeFontToFitRect', :path => '../'
-
-  
 end

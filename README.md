@@ -1,9 +1,8 @@
 # DECResizeFontToFitRect
 
-[![CI Status](http://img.shields.io/travis/David Coufal/DECResizeFontToFitRect.svg?style=flat)](https://travis-ci.org/David Coufal/DECResizeFontToFitRect)
-[![Version](https://img.shields.io/cocoapods/v/DECResizeFontToFitRect.svg?style=flat)](http://cocoapods.org/pods/DECResizeFontToFitRect)
-[![License](https://img.shields.io/cocoapods/l/DECResizeFontToFitRect.svg?style=flat)](http://cocoapods.org/pods/DECResizeFontToFitRect)
-[![Platform](https://img.shields.io/cocoapods/p/DECResizeFontToFitRect.svg?style=flat)](http://cocoapods.org/pods/DECResizeFontToFitRect)
+A simple library that can calculate the required point size for a font to fit any given string in any given rectangle, maximizing the size of the string (within the specified maximum and minimum point sizes).
+
+This code has been used since 2010 in the [Just Big Text](https://itunes.apple.com/us/app/just-big-text/id380965096?mt=8) product.
 
 ## Usage
 
