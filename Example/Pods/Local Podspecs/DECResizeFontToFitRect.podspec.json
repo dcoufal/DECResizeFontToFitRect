@@ -1,0 +1,25 @@
+{
+  "name": "DECResizeFontToFitRect",
+  "version": "0.1.0",
+  "summary": "A short description of DECResizeFontToFitRect.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/DECResizeFontToFitRect",
+  "license": "MIT",
+  "authors": {
+    "David Coufal": "dcoufal@alum.mit.edu"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/DECResizeFontToFitRect.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "DECResizeFontToFitRect": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
