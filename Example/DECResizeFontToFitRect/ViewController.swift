@@ -31,12 +31,12 @@ class ViewController: UIViewController {
         resizeFontForLabel(label8)
     }
     
-    func resizeFontForLabel(label: UILabel) {
-        label.font = resizeFontToRect(label.text,
-            font:label.font,
-            rect:label.bounds,
-            maxFontSize:label.font.pointSize,
-            minFontSize:label.font.pointSize * 0.2)
+    func resizeFontForLabel(_ label: UILabel) {
+        label.font = resize(font: label.font,
+                            toRect: label.bounds,
+                            forString: label.text,
+                            withMaxFontSize: label.font.pointSize,
+                            withMinFontSize:label.font.pointSize * 0.2)
     }
     
 }

@@ -26,3 +26,9 @@ David Coufal, dcoufal@alum.mit.edu
 ## License
 
 DECResizeFontToFitRect is available under the MIT license. See the LICENSE file for more info.
+
+## Release History
+
+1.0 - Initial Public Release - March 2016
+
+1.1 - Update to Swift 3 - November 2016
