@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = "DECResizeFontToFitRect"
-s.version          = "1.1.0"
+s.version          = "1.2.0"
 s.summary          = "Code to calculate the optimal point size of a font to fit any given text and rect"
 
 s.description      = <<-DESC

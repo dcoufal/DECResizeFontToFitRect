@@ -1,10 +1,12 @@
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-target 'DECResizeFontToFitRect_Example', :exclusive => true do
+platform :ios, '8.0'
+
+target 'DECResizeFontToFitRect_Example' do
   pod 'DECResizeFontToFitRect', :path => '../'
 end
 
-target 'DECResizeFontToFitRect_Tests', :exclusive => true do
+target 'DECResizeFontToFitRect_Tests' do
   pod 'DECResizeFontToFitRect', :path => '../'
 end
