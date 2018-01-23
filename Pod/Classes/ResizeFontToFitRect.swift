@@ -64,7 +64,7 @@ public func resize(
         let labelSize = text.boundingRect(
             with: constraintSize,
             options: stringDrawingOptions,
-            attributes: [ NSFontAttributeName : tempfont ],
+            attributes: [ .font : tempfont ],
             context: nil)
         
         if (labelSize.height <= rect.height) {
@@ -87,7 +87,7 @@ internal func getMaxFontSize(
     var currentFontSize: CGFloat = maxFontSize
     while (currentFontSize > minFontSize) {
         let tempfont = font.withSize(currentFontSize)
-        let labelSize = word.size(attributes: [NSFontAttributeName: tempfont])
+        let labelSize = word.size(withAttributes: [.font: tempfont])
         if (labelSize.width < width) {
             return currentFontSize
         }

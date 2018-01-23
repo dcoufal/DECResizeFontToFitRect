@@ -1,6 +1,6 @@
 {
   "name": "DECResizeFontToFitRect",
-  "version": "0.2.0",
+  "version": "1.2.0",
   "summary": "Code to calculate the optimal point size of a font to fit any given text and rect",
   "description": "This pod contains a function to calculate the optimal size of font that fits a given string in any given rectangle.",
   "homepage": "https://github.com/dcoufal/DECResizeFontToFitRect",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/dcoufal/DECResizeFontToFitRect.git",
-    "tag": "0.2.0"
+    "tag": "1.2.0"
   },
   "social_media_url": "https://twitter.com/davidcoufal",
   "platforms": {

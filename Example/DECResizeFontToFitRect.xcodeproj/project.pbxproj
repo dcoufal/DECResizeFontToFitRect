@@ -166,12 +166,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "DECResizeFontToFitRect_Example" */;
 			buildPhases = (
-				AF98904EDBEF27107E64B7EA /* Check Pods Manifest.lock */,
+				AF98904EDBEF27107E64B7EA /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				ED222EF01FEAFD768912EB3D /* Embed Pods Frameworks */,
-				BB0693798C69EAF196D971F5 /* Copy Pods Resources */,
+				ED222EF01FEAFD768912EB3D /* [CP] Embed Pods Frameworks */,
+				BB0693798C69EAF196D971F5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -186,12 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "DECResizeFontToFitRect_Tests" */;
 			buildPhases = (
-				3866B027D1E536AEB96AE3FD /* Check Pods Manifest.lock */,
+				3866B027D1E536AEB96AE3FD /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				570617FCD826024E8039A907 /* Embed Pods Frameworks */,
-				A7D6410D0339D5ABDA179383 /* Copy Pods Resources */,
+				570617FCD826024E8039A907 /* [CP] Embed Pods Frameworks */,
+				A7D6410D0339D5ABDA179383 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -264,44 +264,50 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3866B027D1E536AEB96AE3FD /* Check Pods Manifest.lock */ = {
+		3866B027D1E536AEB96AE3FD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DECResizeFontToFitRect_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		570617FCD826024E8039A907 /* Embed Pods Frameworks */ = {
+		570617FCD826024E8039A907 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DECResizeFontToFitRect_Tests/Pods-DECResizeFontToFitRect_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DECResizeFontToFitRect/DECResizeFontToFitRect.framework",
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DECResizeFontToFitRect.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DECResizeFontToFitRect_Tests/Pods-DECResizeFontToFitRect_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A7D6410D0339D5ABDA179383 /* Copy Pods Resources */ = {
+		A7D6410D0339D5ABDA179383 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,29 +315,32 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DECResizeFontToFitRect_Tests/Pods-DECResizeFontToFitRect_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AF98904EDBEF27107E64B7EA /* Check Pods Manifest.lock */ = {
+		AF98904EDBEF27107E64B7EA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DECResizeFontToFitRect_Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BB0693798C69EAF196D971F5 /* Copy Pods Resources */ = {
+		BB0693798C69EAF196D971F5 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,15 +348,18 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DECResizeFontToFitRect_Example/Pods-DECResizeFontToFitRect_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		ED222EF01FEAFD768912EB3D /* Embed Pods Frameworks */ = {
+		ED222EF01FEAFD768912EB3D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DECResizeFontToFitRect_Example/Pods-DECResizeFontToFitRect_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DECResizeFontToFitRect/DECResizeFontToFitRect.framework",
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DECResizeFontToFitRect.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -495,7 +507,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C036A8BDB8533A3863AC882D /* Pods-DECResizeFontToFitRect_Example.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DECResizeFontToFitRect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -510,7 +522,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4A93408FA225D7D279741DAC /* Pods-DECResizeFontToFitRect_Example.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DECResizeFontToFitRect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -525,7 +537,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8DAADD7AE195C51D2F90D921 /* Pods-DECResizeFontToFitRect_Tests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -548,7 +560,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 40C8A13D08529A8CEB6504AC /* Pods-DECResizeFontToFitRect_Tests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
